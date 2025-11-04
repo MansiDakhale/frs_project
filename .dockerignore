@@ -1,0 +1,30 @@
+# .dockerignore
+
+# Python virtual environment
+venv/
+*.venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / IDE specific
+.DS_Store
+.idea/
+.vscode/
+
+# Git folder
+.git/
+
+# Local data
+gallery/
+*.tgz
+lfw_extracted/
+
+# Local files
+frs.db
