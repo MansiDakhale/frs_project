@@ -1,0 +1,19 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+*.venv/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / IDE specific
+.DS_Store
+.idea/
+.vscode/
